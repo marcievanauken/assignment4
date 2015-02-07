@@ -24,6 +24,12 @@ nav {
 
 p {
 	font-family: arial;
+	font-size:13px;
+}
+
+h3 {
+	font-family: arial;
+	color:#f26522;
 }
 
 #container {
@@ -51,7 +57,7 @@ ul.nav {
 	}
 
 		ul.nav li:hover {
-			background-color:#000;
+			background-color:#f26522;
 			text-decoration: none;
 			color:#ffffff;
 		}
@@ -77,16 +83,53 @@ ul.nav {
 	width:61%;
 }
 
-#body {
+#mainContent {
 	float:left;
-	margin-left:25px;
-	margin-right:25px;
+	/* margin-left:25px;
+	margin-right:25px; */
+}
+
+/* homepage */
+
+#backgroundImage {
+	background-image:url(../images/homepage-image.jpg);
+	height:651px;
+	width:960px;
+	background-repeat: no-repeat;
+	clear:both;
+}
+
+#homepageText {
+	width:453px;
 }
 
 /* Resume section */
 
+#resumeSection {
+	width:900px;
+	margin-bottom:70px;
+	border-top:1px solid #000;
+}
 
+#resumeSectiontop {
+	width:900px;
+	margin-bottom:70px;
+	border-top:1px solid #fff;
+}
 
+#resumeCategory {
+	width:150px;
+	float:left;
+}
+
+#resumeContent {
+	width:620px;
+	margin-left:270px;
+}
+
+.resumeTitle {
+	font-size: 15px;
+}
 
 
 #footer {
