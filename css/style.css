@@ -1,5 +1,6 @@
 html {
-	background-color: #ebebeb;
+	background-image: url(http://www.transparenttextures.com/patterns/absurdity.png);
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 body {
@@ -70,7 +71,7 @@ ul.nav {
 			}
 
 #socialButtons {
-	background-color:#000000;
+	background-color:#ffffff;
 	height:58px;
 	width:28px;
 	margin:0 auto;
@@ -88,6 +89,7 @@ ul.nav {
 	float:left;
 	/* margin-left:25px;
 	margin-right:25px; */
+
 }
 
 /* homepage */
@@ -179,7 +181,7 @@ p .orange {
 }
 
 #hello a {
-	color:#f26522;
+	color:#00aeef;
 	-webkit-transition: all ease .5s;
 	transition: all ease .5s;
 	
@@ -195,7 +197,9 @@ p .orange {
 	clear:both;
 	width:960px;
 	height:220px;
-	background-color:#feefea;
+	background-color: #f1fbff;
+	background-image: url(http://www.transparenttextures.com/patterns/absurdity.png);
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 	margin-top:380px;
 }
 
@@ -213,6 +217,32 @@ p .orange {
 	display: block;
 }
 
+/* Portfolio */
+
+#mainThree{
+	float:left;
+	min-height: 100vh;
+	padding:10px;
+	background-color: #fff;
+	margin-top:25px;
+}
+
+#imageGallery {
+	width:150px;
+	height:265px;
+	margin-right:10px;
+	margin-left:12px;
+	margin-bottom:10px;
+	padding:10px;
+	float:left;
+}
+
+#imageGallery img {
+	width:60%;
+	width:150px;
+	height: auto;
+}
+
 
 /* Resume section */
 
@@ -220,6 +250,8 @@ p .orange {
 	width:900px;
 	margin-bottom:70px;
 	margin-left:25px;
+
+	border-top:1px solid #000;
 }
 
 #resumeSectiontop {
@@ -241,6 +273,7 @@ p .orange {
 
 .resumeTitle {
 	font-size: 15px;
+	color:#f26522;
 }
 
 
