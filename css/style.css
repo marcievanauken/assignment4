@@ -1,4 +1,5 @@
 html {
+	background-color:#f26522;
 	background-image: url(http://www.transparenttextures.com/patterns/absurdity.png);
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
@@ -8,7 +9,7 @@ body {
 }
 
 a {
-	color:#f26522;
+	color:#898989;
 	text-decoration:none;
 	-webkit-transition: all ease .5s;
 	transition: all ease .5s;
@@ -71,7 +72,6 @@ ul.nav {
 			}
 
 #socialButtons {
-	background-color:#ffffff;
 	height:58px;
 	width:28px;
 	margin:0 auto;
@@ -181,7 +181,6 @@ p .orange {
 }
 
 #hello a {
-	color:#00aeef;
 	-webkit-transition: all ease .5s;
 	transition: all ease .5s;
 	
@@ -197,7 +196,7 @@ p .orange {
 	clear:both;
 	width:960px;
 	height:220px;
-	background-color: #f1fbff;
+	background-color: #ebebeb;
 	background-image: url(http://www.transparenttextures.com/patterns/absurdity.png);
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 	margin-top:380px;
